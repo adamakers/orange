@@ -70,7 +70,7 @@ body {
 */
 
 .hero-container {
-  background: #fff url(../img/orange-leaves.jpg) no-repeat center top;
+  background: #fff url(../img/orange-leaves1.jpg) no-repeat center top;
   background-size: cover;
   height: auto;
   width: auto;
@@ -79,7 +79,7 @@ body {
 
 .hero-container .hero-jumbo {
   background-color: transparent;
-  padding-top: 50vh;
+  padding-top: 30vh;
 }
 
 .hero-container .hero-jumbo {
@@ -99,4 +99,12 @@ body {
 
 
 
-@media(min-width: )
+@media(min-width: 450px) {
+  
+  
+  .hero-container .hero-jumbo {
+    padding-top: 50vh;
+  }
+
+
+}

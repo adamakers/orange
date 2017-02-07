@@ -9,6 +9,17 @@ body {
   height: 100%;
 }
 
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+h1,
+h2,
+p {
+  color: white;
+}
+
+
 
 /* 
 ###################
@@ -82,10 +93,6 @@ body {
   padding-top: 30vh;
 }
 
-.hero-container .hero-jumbo {
-  color: white;
-}
-
 .hero-container .jumbo-title {
   font-size: 3rem;
 }
@@ -93,14 +100,20 @@ body {
 .hero-container .jumbotron .hero-button {
   border-radius: 500px;
   color: white;
+  background-color: #EA7317;
+  border: none;
   font-size: 2rem;
+  padding: 10px 25px;
+}
+
+.hero-container .hero-jumbo .hero-button:hover {
+  background-color: #71F79F;
 }
 
 
 
 
 @media(min-width: 450px) {
-  
 
 /* 
 ###################
@@ -109,7 +122,7 @@ body {
 */
   
   .hero-container .hero-jumbo {
-    padding-top: 50vh;
+    padding-top: 55vh;
   }
 
 

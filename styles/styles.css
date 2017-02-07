@@ -74,24 +74,26 @@ body {
   background-size: cover;
   height: auto;
   width: auto;
-  padding: 4rem 2rem;
   height: 100vh;
 }
 
 .hero-container .hero-jumbo {
   background-color: transparent;
-  padding-top: 35rem;
+  padding-top: 50vh;
 }
 
-/*.hero-container .hero-jumbo .jumbo-title {
-  margin-top: 12rem;
-}*/
+.hero-container .hero-jumbo {
+  color: white;
+}
+
+.hero-container .jumbo-title {
+  font-size: 3rem;
+}
 
 .hero-container .jumbotron .hero-button {
   border-radius: 500px;
   color: white;
   font-size: 2rem;
-  padding: 1rem 3rem;
 }
 
 

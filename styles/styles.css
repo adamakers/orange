@@ -70,6 +70,12 @@ p {
 .navbar-nav .nav-item .nav-link {
   font-weight: bold;
   text-transform: uppercase;
+  color: #050401;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #EA7317;
 }
 
 .navbar-nav .nav-item .order-btn {
@@ -79,6 +85,7 @@ p {
   padding: 10px 20px;
   position: relative;
   top: -3px;
+  transition: all 0.2s ease;
 }
 
 .navbar-nav .nav-item .order-btn:hover {
@@ -211,6 +218,46 @@ p {
 .carousel-item .media img {
   height: 120px;
 }
+
+
+/**********************
+    GET STARTED
+**********************/
+
+.get-started {
+  background-image: url("../img/oranges.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.get-started .overlay {
+  background-color: rgba(0,0,0,0.25);
+}
+
+.get-started p {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.get-started .get-start-btn {
+  font-size: 40px;
+  border-radius: 50000px;
+}
+
+
+
+/**********************
+    FOOTER
+**********************/
+
+.main-footer .nav .nav-item .nav-link{
+  color: #050401;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
 
 @media(min-width: 450px) {
 

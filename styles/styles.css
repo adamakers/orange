@@ -256,6 +256,29 @@ p {
   text-transform: uppercase;
 }
 
+.main-footer .media-nav {
+  list-style: none;
+}
+
+.main-footer .media-nav .media-list-item {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.main-footer .media-nav li a {
+  background-color: #EA7317;
+  color: white;
+  display: block;
+  line-height: 60px;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 50%;
+}
+
+.main-footer .media-nav-contain p {
+  color: #050401;
+}
 
 
 

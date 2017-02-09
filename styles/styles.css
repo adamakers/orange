@@ -1,8 +1,6 @@
-/* 
-###################
-  GENERAL
-###################
-*/
+/**********************
+    GENERAL
+**********************/
 
 html,
 body {
@@ -20,20 +18,30 @@ p {
 }
 
 
+/**********************
+    REUSABLE PROPERTIES
+**********************/
 
-/* 
-###################
-  NAVBAR
-###################
-*/
+.main-header,
+.card .card-img-top {
+  width: 100%;
+}
+
+
+.btn.hero-button,
+.card .card-block {
+  background-color: #EA7317;
+}
+
+
+
+/**********************
+    NAVBAR
+**********************/
 
 .main-header,
 .main-nav {
   background-color: white;
-}
-
-.main-header {
-  width: 100%;
 }
 
 .navbar-logo-container .navbar-brand {
@@ -74,11 +82,9 @@ p {
 }
 
 
-/* 
-###################
-  HERO
-###################
-*/
+/**********************
+    HERO
+**********************/
 
 .hero-container {
   background: #fff url(../img/orange-leaves1.jpg) no-repeat center top;
@@ -100,7 +106,6 @@ p {
 .hero-container .jumbotron .hero-button {
   border-radius: 500px;
   color: white;
-  background-color: #EA7317;
   border: none;
   font-size: 2rem;
   padding: 10px 25px;
@@ -111,15 +116,28 @@ p {
 }
 
 
+/**********************
+    BENEFITS
+**********************/
+
+.mail-col {
+  background-color: blue;
+}
+
+.mail-col input {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+
+}
+
 
 
 @media(min-width: 450px) {
 
-/* 
-###################
-  HERO
-###################
-*/
+/**********************
+    HERO
+**********************/
   
   .hero-container .hero-jumbo {
     padding-top: 55vh;

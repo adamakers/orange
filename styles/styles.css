@@ -7,6 +7,10 @@ body {
   height: 100%;
 }
 
+html {
+  //font-size: 62.5%;
+}
+
 body {
   font-family: 'Dosis', sans-serif;
 }
@@ -21,6 +25,11 @@ p {
 /**********************
     REUSABLE PROPERTIES
 **********************/
+
+.benefits,
+.mailing-list {
+  padding: 100px 0;
+}
 
 .main-header,
 .card .card-img-top {
@@ -41,7 +50,7 @@ p {
 
 .main-header,
 .main-nav {
-  background-color: white;
+  background-color: #fffaff;
 }
 
 .navbar-logo-container .navbar-brand {
@@ -115,21 +124,54 @@ p {
   background-color: #71F79F;
 }
 
-
 /**********************
     BENEFITS
 **********************/
+.benefits {
+  background-color: #fffaff;
+}
+
+.benefits h2 {
+  color: #EA7317;
+}
+
+.benefits .card {
+  overflow: hidden;
+}
+
+.card-container .box {
+  margin-bottom: 15px;
+}
+
+
+/**********************
+    MAILING LIST
+**********************/
+
+.mailing-list {
+  background-image: url("../img/orange-tree.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 7.5em 0;
+}
 
 .mail-col {
-  background-color: blue;
+  background-color: rgba(0,0,0,0.25);
+  border-radius: 5px;
 }
 
-.mail-col input {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-
+.mail-col p {
+  font-size: 30px;
 }
+
+.mail-col .btn {
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+
+
 
 
 
@@ -143,5 +185,15 @@ p {
     padding-top: 55vh;
   }
 
+
+}
+
+
+@media(min-width: 992px) {
+
+  .card-container .box {
+    margin-bottom: 0px;
+
+  }
 
 }

@@ -171,9 +171,46 @@ p {
 }
 
 
+/**********************
+    TESTIMONIAL
+**********************/
 
+.testimonial {
+  background-color: #fffaff;
+}
 
+.carousel-inner {
+  max-width: 800px;
+}
 
+.carousel-item {
+  
+}
+
+.carousel-item h4 {
+  display: block;
+}
+
+.carousel-item .divider {
+  border-bottom: 1px solid #BAB6BA;
+}
+
+.carousel-item .inner-tri {
+  background-color: #fffaff;
+  display: block;
+  margin: 0 auto;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #BAB6BA;
+  border-width: 1px 1px 0 0;
+  transform: rotate(135deg);
+  position: relative;
+  top: 11px;
+}
+
+.carousel-item .media img {
+  height: 120px;
+}
 
 @media(min-width: 450px) {
 
